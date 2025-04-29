@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(59, 59, 59);
+}
+
+.section1 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.lightbulb {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 6vh;
+}
+
+.triangle {
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(255, 204, 35);
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+}
+
+.triangle-text {
+    position: absolute;
+    font-weight: bold;
+    color: rgb(59, 59, 59);
+    text-align: center;
+    bottom: 8%;
+}
+
+#name {
+    font-family: "Great Vibes", cursive;
+    font-style: normal;
+    font-size: 8vw;
+}
+
+#work {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 2vw;
+}
+
+.section2 {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(255, 204, 35), rgb(59, 59, 59));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.profile {
+    position: absolute;
+    width: 25%;
+    left: 20%;
+}
+
+.sec2-para {
+    position: absolute;
+    right: 10%;
+    width: 40%;
+}
+
+.discription {
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 2vw;
+    color: rgb(20, 20, 20);
+}
+
+.section3 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(59, 59, 59);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.sec3-skills {
+    position: absolute;
+    top: 2%;
+    color: rgb(255, 204, 35);
+    text-decoration: underline;
+    font-size: 2vw;
+    font-family: "Great Vibes", cursive;
+    font-style: normal;
+}
+
+.rook {
+    position: absolute;
+    width: 15%;
+    border-radius: 10px;
+    left: 15%;
+    top: 25%;
+}
+
+.paper {
+    position: absolute;
+    width: 15%;
+    border-radius: 10px;
+    left: 15%;
+    top: 65%;
+}
+
+.skill1-text {
+    position: absolute;
+    left: 32vw;
+    top: 25%;
+}
+
+.skill2-text {
+    position: absolute;
+    left: 32vw;
+    top: 65%;
+}
+
+#skill-heading1 {
+    text-decoration: underline;
+    font-size: 3vw;
+    color: rgb(255, 204, 35);
+    font-family: "Space Mono", monospace;
+    font-style: normal;
+}
+
+#skill-heading2 {
+    text-decoration: underline;
+    font-size: 3vw;
+    color: rgb(255, 204, 35);
+    font-family: "Space Mono", monospace;
+    font-style: normal;
+}
+
+#skill-disc1 {
+    color: aliceblue;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 2vw;
+}
+
+#skill-disc2 {
+    color: aliceblue;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 2vw;
+}
+
+.section4 {
+    width: 100%;
+    height: 75vh;
+    background-color: rgb(59, 59, 59);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+
+.section5 {
+    width: 100%;
+    height: 25vh;
+    background-color: rgb(255, 204, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.sec4-heading {
+    position: absolute;
+    top: 20%;
+    text-decoration: underline;
+    font-size: 3vw;
+    color: rgb(255, 204, 35);
+    font-family: "Space Mono", monospace;
+    font-style: normal;
+}
+
+.gmail {
+    background: rgb(255, 204, 35);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.gmail:hover {
+    background: #30e3cb;
+    text-decoration: none;
+}
+
+.sec4-para {
+    position: absolute;
+    top: 30%;
+    color: #ffffff;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+}
+
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 2%;
+}
+
+.footer-link {
+    padding: 15px;
+    top: 15%;
+    color: #ffffff;
+}
